@@ -1,0 +1,18 @@
+{
+    "tasks": [
+        {
+            "id": 1,
+            "title": "Task 1",
+            "creator": "Loc",
+            "status": "New",
+            "description": "This is a task."
+        },
+        {
+            "id": 2,
+            "title": "Task 2",
+            "creator": "Loc",
+            "status": "Doing",
+            "description": "This is another task."
+        }
+    ]
+}
