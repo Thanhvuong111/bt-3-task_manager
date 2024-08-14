@@ -1,0 +1,50 @@
+.Done-Task {
+    margin-left: 256px;
+    background: aqua;
+    display: flex;
+    flex-direction: column;
+    padding-top: 65px;
+    width: calc(100% - 256px); 
+    height: 100vh; 
+    box-sizing: border-box;
+}
+
+.Done-Task_items {
+    margin-top: 100px;
+    padding: 0 20px;
+    flex: 1; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: auto; 
+}
+
+
+
+.Done-Task_Pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-top: auto; 
+}
+
+.Done-Task_Pagination button {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.Done-Task_Pagination button:hover {
+    background-color: #ececec;
+}
+
+.Done-Task_Pagination button.active {
+    background-color: #536dfe;
+    color: white;
+    border: none;
+}

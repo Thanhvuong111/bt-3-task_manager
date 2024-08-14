@@ -1,0 +1,19 @@
+
+.sidebar-container {
+    position: fixed; 
+    margin-top: 105px;
+    left: 0;
+    border-right: 5px solid red;
+    background: #af4c59;
+    width: 256px;
+    height: 100%; 
+    display: flex;
+    flex-direction: column; 
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.Menu-sidebar {
+    flex: 1; 
+    border-radius: 10px;
+    overflow: auto; 
+}
